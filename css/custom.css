@@ -35,13 +35,13 @@ button {
 }
 
 .cta-orange {
-    background: #EA8F44;
+    background: #FF6600;
     color: #192440;
 }
 
 .cta-orange:hover {
     color: #ffffff;
-    background: #EA8F44;
+    background: #FF6600;
 }
 
 .cta-blue {
@@ -84,12 +84,12 @@ button {
 }
 
 #feature-first {
-    background: linear-gradient(168deg, #ffffff 55%, #ec971f 0);
+    background: linear-gradient(168deg, #ffffff 55%, #FF6600 0);
 }
 
 #feature-last {
    /* background: #00FFAD;*/
-    background: #ec971f;
+    background: #FF6600;
 }
 
 /********** price table **********/
