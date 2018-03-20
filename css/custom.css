@@ -34,14 +34,14 @@ button {
     width: 100%;
 }
 
-.cta-green {
-    background: #00FFAD;
+.cta-orange {
+    background: #EA8F44;
     color: #192440;
 }
 
-.cta-green:hover {
+.cta-orange:hover {
     color: #ffffff;
-    background: #00e69c;
+    background: #EA8F44;
 }
 
 .cta-blue {
@@ -84,11 +84,12 @@ button {
 }
 
 #feature-first {
-    background: linear-gradient(168deg, #ffffff 55%, #00FFAD 0);
+    background: linear-gradient(168deg, #ffffff 55%, #ec971f 0);
 }
 
 #feature-last {
-    background: #00FFAD;
+   /* background: #00FFAD;*/
+    background: #ec971f;
 }
 
 /********** price table **********/
@@ -116,13 +117,13 @@ button {
 }
 
 #contact form {
-    color: #00FFAD;
+    color: #EA8F44;
 }
 
 #contact form input,
 #contact form textarea {
     background: transparent;
-    border: 1px solid #00FFAD;
+    border: 1px solid #EA8F44;
     color: #ffffff;
 }
 
