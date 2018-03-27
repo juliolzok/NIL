@@ -164,11 +164,6 @@ button {
 
 /********* VIDEO HERO ***********/
 
-/*.homepage-hero-module {
-    border-right: none;
-    border-left: none;
-    position: relative;
-}*/
 .no-video .video-container video,
 .touch .video-container video {
     display: none;
@@ -184,7 +179,7 @@ button {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background: #000;
+    background: rgba(0, 0, 0, 0.6);
 }
 .video-container .poster img {
     width: 100%;
@@ -194,7 +189,7 @@ button {
 .video-container .filter {
     z-index: 100;
     position: absolute;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.619);
     width: 100%;
 }
 .video-container video {
@@ -204,4 +199,11 @@ button {
 }
 .video-container video.fillWidth {
     width: 100%;
+}
+
+/******* Team ******/
+.img-quadrata {
+    border-radius:50%;
+    width:250px;
+    height:250px;
 }
