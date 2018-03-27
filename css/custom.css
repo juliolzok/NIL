@@ -92,6 +92,10 @@ button {
     background: #FF6600;
 }
 
+#feature-invert {
+    background: linear-gradient(10deg, #ffffff 55%, #FF6600 0);
+}
+
 /********** price table **********/
 #price-table {
     padding-top: 4rem !important;
