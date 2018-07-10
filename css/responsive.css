@@ -1,0 +1,1227 @@
+/* Higher Resolution : 1680px > Max */
+@media only screen and (min-width: 1680px) and (max-width: 3300px) {
+/**************************************************************************
+                                # HOME PAGE ONE #
+**************************************************************************/
+/****************
+SLIDER
+****************/
+.do-mac-img{
+  width: 52% !important;
+}
+
+.do-spl-img{
+    width: 14% !important;
+    left: 7% !important;
+    top: -115px !important;
+}
+
+.do-spr-img{
+    width: 10.3% !important;
+    right: 9.5% !important;
+    top: -105px !important;
+}
+
+.do-keyboard-img{
+    width: 21% !important;
+}
+
+.do-earphone-img{
+    width: 9% !important;
+    top: 455px !important;
+  }
+
+.do-coffe-cup-img{
+    top: 540px !important;
+    right: 8.3% !important;
+}
+
+.do-arrow-img{
+  bottom: 230px !important;
+}
+
+.do-women-img{
+  width: 32% !important;
+}
+
+
+.do-portfolio-slider-section .do-work-item{
+    height: 280px;
+}
+
+
+}
+
+
+
+/* Tablet Layout: 1024px.  */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+.do-custom-section-with-img .do-custom-sec-content h3 {
+  color: #000;
+  font-family: "Open Sans",sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0 0 35px;
+  text-transform: uppercase;
+}
+
+/**************************************************************************
+                                # ABOUT US #
+**************************************************************************/
+.do-custom-halfwidthimg-section .do-rightside-halfwidth-img .do-halfwidth-img-details{
+    padding: 75px 16% 35px 100px;
+    position: relative;
+    z-index: 1; 
+}
+
+/**************************************************************************
+                                # BLOG PAGE #
+**************************************************************************/
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments .do-user-img {
+  height: 70px;
+  width: 70px;
+}
+
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments .do-comments {
+  float: left;
+  width: 340px;
+}
+
+
+.do-blog-single-details .do-comment-form-wrapper form input:not(.comment-submit) {
+  width: 162px;
+}
+
+.do-blog-single-details .do-comment-form-wrapper form textarea {
+  clear: left;
+  padding: 30px 15px 0 30px;
+  width: 100%;
+}
+
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments.do-comment-reply {
+  margin-left: 90px;
+}
+
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments.do-comment-reply .do-comments {
+  width: 260px;
+}
+
+/**************************************************************************
+                                # HOME PAGE (four) #
+**************************************************************************/
+.do-portfolio-square .do-work-item {
+  height: 280px;
+  overflow: hidden;
+  width: calc(100% / 3);
+}
+
+.do-contactmap-section .do-home-contact-form {
+  left: 50%;
+  padding: 80px 30px;
+  position: absolute;
+  top: 0;
+  width: calc(970px / 2);
+}
+
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+/**************************************************************************
+                                # HOME PAGE #
+**************************************************************************/
+.do-main-menu.minified .navbar-nav li:hover ul.sub-menu {
+    opacity:1;
+    visibility:visible;
+    top: 100%;
+}
+
+.do-side-menu-button {
+  right: 20px;
+}
+
+.do-work-item {
+  height: 200px;
+  overflow: hidden;
+  width: 33.333%;
+}
+
+
+/************
+CUSTOM SECTION WITH IMAGE
+************/
+.do-custom-section-with-img {
+  background-color: #f9f9f9;
+  padding: 90px 0;
+}
+
+.do-custom-section .do-animated-img-wrapper ul li{
+    width: 138px;
+}
+
+.do-custom-section .do-animated-img-wrapper ul li:nth-child(1){
+    width: 120px;
+}
+
+.do-custom-section .do-animated-img-wrapper ul li:nth-child(2){
+    width: 155px;
+}
+
+.do-custom-section .do-animated-img-wrapper ul li:nth-child(3){
+    width: 127px;
+}
+
+.do-custom-section .do-animated-img-wrapper ul li:nth-child(4){
+    width: 180px;
+}
+
+/****************
+TEEAM SECTION
+****************/
+.do-team-section .do-team-members .do-team-member {
+  width: 33.333%;
+}
+
+
+/*
+SOCIAL LINK
+ */
+.do-social-link-section a {
+  border-right: 1px solid #333333;
+  float: left;
+  padding: 50px 0;
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+  height: auto;
+  line-height: 1;
+  text-align: center;
+}
+
+.do-social-link-section a span {
+  display: block;
+  height: 30px;
+  left: 50%;
+  margin-bottom: 10px;
+  margin-right: 0;
+  position: relative;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+/*
+FOOTER
+ */
+footer.do-footer .do-footer-top {
+  padding-bottom: 15px;
+}
+
+footer.do-footer .do-footer-top .do-footer-widget {
+  margin-bottom: 50px;
+}
+
+/**************************************************************************
+                                # HOME PAGE TWO #
+**************************************************************************/
+.do-homepage-2nd header .do-main-menu.minified .navbar-nav li:hover ul.sub-menu {
+    opacity:1;
+    visibility:visible;
+    top: 100%;
+}
+
+.do-homepage-2nd .do-custom-sec-img-right {
+  background-color: #f9f9f9;
+  padding: 90px 0;
+}
+
+.do-custom-halfwidthimg-section .do-rightside-halfwidth-img .do-halfwidth-img-details {
+  padding: 50px 40px;
+  position: relative;
+  z-index: 1;
+}
+
+
+/**************************************************************************
+                                # ABOUT US #
+**************************************************************************/
+.do-about-us-section .do-about-us-details .do-about-text-row {
+  margin-bottom: 50px;
+  padding-right: 15px;
+}
+
+/************
+ICON WITH MENU
+************/
+.do-icon-with-text-style1 {
+  padding: 0 15px;
+  text-align: center;
+}
+
+/*********
+BLOG ITEM
+*********/
+.do-blog-masonry-items .do-blog-item-wrapper .do-blo-title-excerpt {
+  padding: 25px 30px;
+}
+
+/**************************************************************************
+                              # BLOG SINGLE PAGE #
+**************************************************************************/
+.do-blog-sidebar, .do-portfolio-single-page-wrapper .do-portfolio-sidebar {
+  padding-left: 0;
+}
+
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments {
+  padding: 20px 40px 20px 20px;
+}
+
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments .do-user-img {
+  height: 55px;
+  margin-right: 15px;
+  width: 55px;
+}
+
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments .do-comments {
+  width: 230px;
+}
+
+
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments.do-comment-reply {
+  margin-left: 75px;
+}
+
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments.do-comment-reply .do-comments {
+  width: 160px;
+}
+
+
+.do-blog-single-details .do-comment-form-wrapper form input:not(.comment-submit) {
+  display: block;
+  float: none;
+  margin-right: 0px;
+  width: 100%;
+}
+
+/**************************************************************************
+                                # CONTACT US #
+**************************************************************************/
+.do-contact-form-wrapper {
+  float: left;
+  overflow: hidden;
+  padding-right: 20px;
+  width: 70%;
+}
+
+.do-contact-add-wrapper {
+  float: left;
+  overflow: hidden;
+  padding-left: 20px;
+  width: 30%;
+}
+
+/**************************************************************************
+                                # PORTFOLIO SINGLE ONE #
+**************************************************************************/
+.do-portfolio-single-page-one .do-portfolio-single-page-content .do-single-portfolio-details .do-image-details {
+  padding-left: 15px;
+  padding-right: 40px;
+}
+
+/**************************************************************************
+                                # HOMEPAGE 3 #
+**************************************************************************/
+.do-homepage-third .do-slides-1 h1 {
+  font-size: 48px;
+  text-align: center;
+  width: 100% !important;
+}
+
+/**************************************************************************
+                                # HOME PAGE (four) #
+**************************************************************************/
+.do-portfolio-square .do-work-item {
+  height: 230px;
+  overflow: hidden;
+  width: calc(100% / 3);
+}
+
+.do-contactmap-section .do-home-contact-form {
+  left: 50%;
+  padding: 80px 20px;
+  position: absolute;
+  top: 0;
+  width: calc(750px / 2);
+}
+
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+/**************************************************************************
+                                # HOME PAGE (ONE) #
+**************************************************************************/
+
+/*
+NAVIGATION MENU
+ */
+
+
+.navbar-header {
+  position: relative;
+}
+
+.navbar-brand {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.navbar-toggle {
+	float: left;
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.navbar-toggle .icon-bar{
+	background-color: #fc7f0c;
+	border-radius: 1px;
+	display: block;
+	height: 3px;
+	width: 13px;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 3px;
+}
+
+.navbar-collapse {
+    max-height: none; 
+}
+
+.do-menu-wrapper ul.do-menus {
+  display: block;
+  float: none;
+  margin-bottom: 0;
+}
+
+ul.do-menus > li {
+  margin-right: 0px;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+/*
+SUB MENU
+ */
+.do-main-menu .navbar-nav li ul.sub-menu,
+.do-homepage-2nd header .do-main-menu .navbar-nav li ul.sub-menu{
+	background-color: transparent;
+	display: block;
+	float:none;
+	padding: 5px 0 0 15px;
+	position:static;
+	opacity:1;
+	visibility:visible;
+}
+
+.do-main-menu .navbar-nav li ul.sub-menu::before,
+.do-homepage-2nd header .do-main-menu .navbar-nav li ul.sub-menu:before {
+	background:transparent;
+}
+
+.do-main-menu .navbar-nav li ul.sub-menu li,
+.do-homepage-2nd header .do-main-menu .navbar-nav li ul.sub-menu li {
+	display: block;
+	clear:both;
+	margin-top:0;
+	padding:0px 0px;
+}
+
+.do-main-menu .navbar-nav li ul.sub-menu li a,
+.do-homepage-2nd header .do-main-menu .navbar-nav li ul.sub-menu li a {
+	color: #b1b1b1;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	white-space: pre-wrap;
+	clear: both;
+}
+
+.do-main-menu .navbar-nav li:hover ul.sub-menu,
+.do-homepage-2nd header .do-main-menu .navbar-nav li:hover ul.sub-menu {
+	opacity:1;
+	visibility:visible;
+}
+
+.do-main-menu .navbar-nav li:hover ul.sub-menu li
+.do-homepage-2nd header .do-main-menu .navbar-nav li:hover ul.sub-menu li {
+  margin-top:0;
+  opacity:1;
+}
+
+/* SUB-MENU SUB STYLE */
+.do-main-menu .navbar-nav li ul.sub-menu li ul.sub-menu,
+.do-homepage-2nd header .do-main-menu .navbar-nav li ul.sub-menu li ul.sub-menu,
+.do-main-menu .navbar-nav li ul.sub-menu li ul.sub-menu li ul.sub-menu,
+.do-homepage-2nd header .do-main-menu .navbar-nav li ul.sub-menu li ul.sub-menu li ul.sub-menu {
+  display: block;
+  float:none;
+  position: relative;
+  padding: 0 0 0 15px;
+  background: transparent;
+  min-width: 100px;
+  opacity:1;
+  left: auto;
+  visibility:visible;
+}
+
+.do-main-menu .navbar-nav li ul.sub-menu li ul.sub-menu li,
+.do-homepage-2nd header .do-main-menu .navbar-nav li ul.sub-menu li ul.sub-menu li{
+ 	padding: 5px 0 0 0;
+}
+
+.do-main-menu .navbar-nav li ul.sub-menu li:hover ul.sub-menu,
+.do-homepage-2nd header .do-main-menu .navbar-nav li ul.sub-menu li:hover ul.sub-menu,
+.do-main-menu .navbar-nav li ul.sub-menu li ul.sub-menu li:hover ul.sub-menu,
+.do-homepage-2nd header .do-main-menu .navbar-nav li ul.sub-menu li ul.sub-menu li:hover ul.sub-menu {
+  left: auto;
+}
+
+/*
+SIDE MENU BTN
+ */
+.do-side-menu-opener{
+    position: absolute;
+    top: 18px;
+    right: 0;
+}
+
+.do-side-menu-button {
+  padding: 0;
+  position: absolute;
+  right: 20px;
+  text-indent: 0;
+  top: 0;
+  width: 13px;
+  z-index: 1000;
+}
+
+.do-side-menu-wrap {
+  width: 90%;
+}
+
+.do-side-menu {
+  padding: 50px 30px;
+}
+
+.do-side-menu-widget-wrap .do-side-menu-logo-wrap {
+  top: 30px;
+}
+
+.do-side-menu-widget-wrap .do-side-menu-menu-wrap {
+  height: 325px;
+  margin-top: 50px;
+  overflow-y: scroll;
+  transform: translate3d(0px, 100%, 0px);
+  transition: transform 0s cubic-bezier(0.7, 0, 0.3, 1) 0.4s;
+}
+
+.do-side-menu-widget-wrap .do-side-menu-menu-wrap ul li ul{
+    opacity: 1;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.do-side-menu-widget-wrap .do-side-menu-menu-wrap ul li:hover ul{
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.do-side-menu-widget-wrap .do-side-menu-social-icon {
+  bottom: 20px;
+}
+
+.do-side-menu-close-button {
+  right: 20px;
+  top: 40px;
+}
+
+
+/************
+SLIDER
+************/
+.do-main-slider h1.do-slider-text-big {
+  font-size: 36px;
+}
+
+.do-main-slider p.do-slider-text-small {
+  font-size: 14px;
+}
+
+/************
+SERVICE
+************/
+.do-sevice-section .do-service-container {
+  float: none;
+  height: 220px;
+  margin-right: 0px;
+  margin-bottom: 1px;
+  position: relative;
+  width: 100%;
+}
+
+
+/************
+CUSTOM SECTION WITH IMG
+************/
+.do-custom-section .do-custom-section-content {
+  margin-bottom: 50px;
+}
+
+
+/************
+ICON WITH TEXT
+************/
+.do-icon-with-text-style1 {
+  margin-bottom: 50px;
+}
+
+.do-icon-with-text-style1:last-child{
+	margin-bottom: 0;
+}
+
+.do-work-item{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.do-portfolio-one-px .do-work-item {
+  margin-bottom: 1px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.do-portfolio-one-px .do-height-dbl {
+  height: auto;
+}
+
+/************
+CUSTOM SECTION WITH IMAGE
+************/
+.do-custom-section-with-img {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+/************
+CTA
+************/
+.do-cta-one-section .do-cta-one .do-cta-one-text h2 {
+  line-height: 1.5;
+}
+
+.do-cta-one-section .do-cta-one .do-cta-one-btn {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.do-cta-one-section .do-cta-one .do-cta-one-btn a.do-btn-round-outline {
+  color: #ffffff;
+  float: none;
+}
+
+
+/************
+COUNTER SECTION
+************/
+.do-counter-section .do-counter-items {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+.do-custom-sec3-col-1{
+	margin-bottom: 50px;
+}
+.do-custom-sec3-col-2{
+	margin-bottom: 50px;
+}
+
+/****************
+TEAM SECTION
+****************/
+.do-team-section .do-team-members .do-team-member {
+  width: 100%;
+}
+
+.do-team-section .do-team-members .do-team-member img{
+    padding: 0 15px;
+    width: 141px;
+}
+
+.do-team-section .do-team-members .do-team-member .do-member-details{
+    left: 0;
+    right: 0;
+}
+
+/************
+VIDEO SECTION
+************/
+
+.do-custom-video-section .do-custom-video-content-wrapper {
+  padding: 0 15px;
+}
+
+.do-custom-video-section .do-custom-bg-video-wrapper video {
+	display: none;
+}
+
+
+/************
+SOCIAL ICON
+************/
+.do-social-link-section a {
+  border-right: 0px solid #333333;
+  border-bottom: 1px solid #333333;
+  float: none;
+  padding: 20px 30px;
+  text-align: left;
+  width: 100%;
+}
+
+
+/************
+FOOTER WIDGET
+************/
+footer.do-footer .do-footer-top .do-footer-widget {
+  margin-bottom: 50px;
+}
+
+footer.do-footer .do-footer-top .do-footer-widget:last-child{
+  margin-bottom: 0px;
+}
+
+
+
+/**************************************************************************
+                                # HOME PAGE TWO#
+**************************************************************************/
+
+.do-homepage-2nd header .do-menu-wrapper ul.do-menus {
+	background-color: #222;
+  display: block;
+  float: none;
+  margin-bottom: 0;
+}
+
+.do-homepage-2nd header .do-menu-wrapper ul.do-menus > li > a:hover:after,
+.do-homepage-2nd header .do-menu-wrapper ul.do-menus > li.active > a:after {
+    width: 0;
+    background: #ffffff;
+}
+
+.do-hero-header-wrapper .do-hero-header-text h3 {
+  font-size: 48px;
+}
+
+.do-hero-header-wrapper .do-btn-round-outline {
+  display: block;
+  padding: 0 25px 0 30px;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+.do-hero-header-wrapper .do-hero-header-text .do-hero-header-btns a {
+  color: #ffffff;
+  display: block;
+  margin-right: 0px;
+}
+
+.do-cta-one-section.do-solid-color-cta .do-cta-one-text h2 {
+  text-align: center;
+}
+
+.do-custom-section-with-img {
+  padding: 50px 0 0;
+}
+
+.do-custom-section-with-img .do-custom-sec-content {
+  margin-bottom: 50px;
+}
+
+
+.do-features-with-img-wrapper > div:nth-child(2){
+  margin: 50px 0
+}
+
+
+.do-blog-masonry-items {
+  margin-bottom: 50px;
+}
+
+.do-blog-masonry-items:last-child{
+	margin-bottom: 0;
+}
+
+
+.do-custom-halfwidthimg-section .do-leftside-halfwidth-img, .do-custom-halfwidthimg-section .do-rightside-halfwidth-img {
+  float: none;
+  width: 100%;
+  height: auto;
+}
+
+.do-custom-halfwidthimg-section .do-rightside-halfwidth-img .do-halfwidth-img-details {
+  padding: 50px 30px;
+}
+
+.do-testimonial .do-testimonial-slides {
+  padding: 0 30px;
+}
+
+
+
+/**************************************************************************
+                                # ABOUT US #
+**************************************************************************/
+.do-about-us-section .do-about-us-details .do-about-text-row {
+  margin-bottom: 50px;
+  padding-right: 15px;
+}
+
+.do-about-custom-section {
+  background-color: #f9f9f9;
+  padding: 65px 0;
+}
+.do-about-custom-img{
+  margin-bottom: 50px;
+}
+
+/**************************************************************************
+                                # BLOG - CREATIVE #
+**************************************************************************/
+.do-normal-page-title-section .do-breadcumb {
+  display: inline-block;
+  float: left;
+  padding-left: 15px;
+  padding-top: 25px;
+}
+
+.do-creative-blog-items .do-blog-content {
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  padding: 30px 0 30px 20px;
+  transition: all 0.6s ease 0s;
+}
+
+
+/**************************************************************************
+                                # BLOG - MASONRY #
+**************************************************************************/
+/* 3 Column */
+.do-blog-masonry-page .do-blog-masonry-items{
+    width: 100%;
+    padding-left: 0px;
+    margin-right: 0px;
+    padding: 0 15px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+/**************************************************************************
+                                # BLOG SINGLE #
+**************************************************************************/
+.do-blog-single-inner-sec {
+  background-color: #ffffff;
+  margin-bottom: 1px;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.do-blog-single-details .do-blog-post-title-wrapper .do-blog-post-titles {
+  float: left;
+  width: 70%;
+}
+
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments .do-user-img {
+  float: none;
+}
+
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments {
+  padding: 20px;
+}
+
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments .do-comments {
+  float: none;
+  margin-top: 30px;
+  width: auto;
+}
+
+
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments.do-comment-reply {
+  margin-left: 20px;
+}
+
+
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments.do-comment-reply .do-comments {
+  width: auto;
+}
+
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments .do-comments .do-comments-title h4.do-user-name{
+  float: none;
+  display: block;
+  margin: 0;
+}
+
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments .do-comments .do-comments-title h4.do-user-name a{
+  float: none;
+  margin: 0;
+}
+
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments .do-comments .do-comments-title span.do-comment-date-time {
+  float: none;
+  display: block;
+  margin-top: 10px;
+}
+
+.do-blog-single-details .do-blog-comments-wrapper .do-blog-comments a.do-comment-reply-btn {
+  bottom: 10px;
+  right: 10px;
+}
+
+.do-blog-single-details .do-comment-form-wrapper form input:not(.comment-submit) {
+  display: block;
+  float: none;
+  margin-right: 0px;
+  width: 100%;
+}
+
+
+/**************************************************************************
+                                # PORTFOLIO 2,3,4, WITH SPACE#
+**************************************************************************/
+.do-portfolio-page-wrapper .do-portfolio-filter-btn-group{
+  padding: 0 15px;
+}
+
+.do-portfolio-page-wrapper .do-portfolio-filter-btn-group a {
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+/* 1PX SPACE */
+.do-work-item{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+
+.do-portfolio-one-px .do-work-item{
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+    margin-bottom: 1px;
+}
+
+/* 2 COLUMN */
+.do-work-item-2col .do-work-item{
+    width: 100%;
+    padding: 0px;
+}
+
+/* 3 COLUMN */
+.do-work-item-3col .do-work-item{
+    width: 100%;
+    padding: 0px;
+}
+
+/* 4 COLUMN */
+.do-work-item-4col .do-work-item{
+    width: 100%;
+    padding: 0px;
+}
+
+/* WITH SPACE */
+.do-work-item-withspace .do-work-item{
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.do-portfolio-square .do-work-item {
+  height: 320px;
+  overflow: hidden;
+  width: 100%;
+}
+
+/**************************************************************************
+                                # PORTFOLIO SINGLE TWO #
+**************************************************************************/
+.do-portfolio-single-page-alt .do-single-portfolio-details {
+  margin-bottom: 0;
+  padding: 0 15px;
+}
+
+.do-portfolio-single-page-content .do-single-portfolio-details .do-image-details {
+  padding: 0px;
+}
+
+/**************************************************************************
+                                # PORTFOLIO SINGLE ONE #
+**************************************************************************/
+.do-portfolio-single-page-alt .do-single-portfolio-details {
+  margin-bottom: 0;
+  padding: 0 15px;
+}
+
+.do-portfolio-single-page-one .do-portfolio-single-page-content .do-single-portfolio-details .do-image-details{
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+
+/**************************************************************************
+                                # CONTACT US #
+**************************************************************************/
+.do-contact-page-wrapper {
+  overflow: hidden;
+  padding: 70px 0;
+}
+
+.do-contact-form-wrapper {
+  float: none;
+  margin-bottom: 50px;
+  overflow: hidden;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.do-contact-form-wrapper form input:not([type="submit"]) {
+  float: none;
+  width: 100%;
+}
+
+.do-contact-add-wrapper {
+  float: none;
+  overflow: hidden;
+  padding: 0 15px;
+  width: 100%;
+}
+
+
+/**************************************************************************
+                                # HOMEPAGE 3 #
+**************************************************************************/
+.do-icon-with-text-style3 {
+  padding: 0 15px;
+  margin-bottom: 50px;
+}
+
+.do-icon-with-text-style3:last-child {
+  margin-bottom: 0px;
+}
+
+.do-homepage-third .do-custom-section-with-img .do-custom-sec-text-content {
+  padding-bottom: 50px
+}
+
+.do-counter-section-2 .do-counter-items {
+  margin-bottom: 50px;
+}
+
+.do-counter-section-2 .do-counter-items:last-child {
+  margin-bottom: 0px;
+}
+
+.do-homepage-third .do-testimonial-section {
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  padding-bottom: 170px;
+}
+
+.do-hero-header-wrapper.do-fullscreen-slider h1 {
+    font-size: 48px;
+}
+
+
+/**************************************************************************
+                                # HOME PAGE (four) #
+**************************************************************************/
+.do-header-topbar {
+  padding: 10px 15px;
+}
+
+.do-header-topbar .do-topbar-content-wrap {
+  display: block;
+  float: none;
+  width: 100%;
+  overflow: hidden;
+}
+
+.do-header-topbar .do-topbar-content-wrap.do-topbar-content-right {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.do-custom-sec-img, .do-custom-section-with-img .do-custom-sec-content {
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+
+/*
+SLIDER
+*/
+.do-homepage-fourth .do-slides-1 h1 {
+  color: #ffffff;
+  font-family: "Open Sans",sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+}
+.do-hero-header-wrapper.do-fullscreen-slider .do-hero-header-btns {
+  top: 270px !important;
+}
+
+.do-homepage-fourth .do-slides-1 a.do-btn-round-solid {
+  margin-bottom: 15px;
+  display: block;
+}
+
+.do-homepage-fourth .do-slides-1 a.do-btn-round-outline.green {
+  margin-left: 0px;
+}
+
+
+.do-contactmap-section .do-home-contact-form-bg {
+  width: 100%;
+}
+
+.do-contactmap-section .do-home-contact-form {
+  left: 0;
+  padding: 80px 20px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+
+
+
+}
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/**************************************************************************
+                                # HOME PAGE (ONE) #
+**************************************************************************/
+/**********
+SIDE MENU
+**********/
+.do-side-menu-widget-wrap .do-side-menu-menu-wrap {
+  height: 165px;
+}
+
+/********
+SERVICE
+********/
+.do-sevice-section .do-service-container {
+  float: left;
+  width: 50%;
+}
+
+/********
+WORK
+********/
+.do-work-item {
+  width: 50%;
+}
+
+.do-work-item-inner-wrap {
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+/**************************************************************************
+                                # PORTFOLIO 2,3,4, WITH SPACE#
+**************************************************************************/
+
+/* 1PX SPACE */
+.do-portfolio-one-px .do-work-item{
+    width: 50%;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+    margin-bottom: 1px;
+}
+
+/* 2 COLUMN */
+.do-work-item-2col .do-work-item{
+    width: 50%;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+}
+
+/* 3 COLUMN */
+.do-work-item-3col .do-work-item{
+    width: 50%;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+}
+
+/* 4 COLUMN */
+.do-work-item-4col .do-work-item{
+    width: 50%;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
+}
+
+/* WITH SPACE */
+.do-work-item-withspace .do-work-item{
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/**************************************************************************
+                                # HOME PAGE (four) #
+**************************************************************************/
+.do-header-topbar .do-topbar-content-wrap {
+  display: block;
+  float: none;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+
+.do-header-topbar .do-topbar-content-wrap.do-topbar-content-left ul {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.do-portfolio-square .do-work-item {
+  height: 220px;
+  overflow: hidden;
+  width: 50%;
+}
+
+
+
+
+
+
+
+}
